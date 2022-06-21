@@ -1,0 +1,29 @@
+.tr-cus1
+{
+	background-color: #0072ff !important;
+	color: white !important;
+	font-family: sans-serif;
+}
+
+.btn-cus2
+{
+	background: #021B79;
+	border: 0ch;
+	padding: 10px;
+	color: aliceblue;
+	border-radius: 10px;
+}
+
+body{
+	background: whitesmoke !important; 
+}
+
+.custom-thead, .custom-tbody { display: block; }
+
+.custom-tbody {
+    height: 400px;       
+    overflow-y: auto;   
+    overflow-x: hidden;
+	  
+}
+

@@ -1,0 +1,15 @@
+.custom-td{
+    padding: 20px !important;
+}
+.custom-th
+{
+    padding:30px !important;
+}
+
+
+.row button:hover
+{
+    background-color: deeppink  !important;
+    color:white !important;
+
+}

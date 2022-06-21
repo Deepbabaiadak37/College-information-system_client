@@ -1,0 +1,28 @@
+.jumbotron
+{
+	padding: 0px 0px !important;
+	background: #373B44 !important;
+	margin-bottom: 0 !important;
+}
+
+.card1
+{
+	margin: 24px !important;
+	background:  #d31027 !important;
+	color: white;
+	border: solid !important;
+}
+.card2
+{
+	margin: 24px !important;
+	background: linear-gradient(to right, #243b55, #243b55);
+	color: white;
+	border: solid !important;
+}
+.card3
+{
+	margin: 24px !important;
+	background-color: #11998e !important;
+	color: white;
+	border: solid !important;
+}

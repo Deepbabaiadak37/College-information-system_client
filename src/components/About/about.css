@@ -1,0 +1,26 @@
+.about-img
+{
+	heigh: 400px;
+	width: 500px;
+	margin-left: 20px;
+
+
+}
+.sh2
+{
+	border-radius: 15px;
+	background: #3F5EFB;
+	padding: 4px;
+}
+
+@media (max-width: 1080px) 
+ {
+
+ 	.about-img{
+	    height: 236px;
+	    width: auto;
+	    margin-left: 20px;
+	 	
+ 	}
+
+ }

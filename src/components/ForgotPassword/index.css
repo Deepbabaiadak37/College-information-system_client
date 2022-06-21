@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+    .custom-contain
+    {
+        height: 800px !important;
+    }
+}

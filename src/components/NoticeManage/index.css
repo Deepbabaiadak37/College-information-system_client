@@ -1,0 +1,33 @@
+.btn-cus
+{
+    color:white !important;
+    background: rgb(55, 205, 50) !important;
+    padding:  0px 27px !important;
+    border-radius: 20px !important;
+}
+.btn-cus2
+{
+    color:white !important;
+    background: rgb(27, 139, 231) !important;
+    padding:  9px 25px !important;
+    border-radius: 20px !important;
+}
+.btn-cus-red
+{
+    color:white !important;
+    background: rgba(233, 36, 36, 0.808) !important;
+    padding:  9px 27px !important;
+    border-radius: 20px !important;
+}
+
+.btn-cus-red2
+{
+    color:white !important;
+    background: rgba(233, 36, 36, 0.808) !important;
+    padding:  0px 27px !important;
+    border-radius: 20px !important;
+}
+.table-dark
+{
+    border-radius: 8px !important;
+}
