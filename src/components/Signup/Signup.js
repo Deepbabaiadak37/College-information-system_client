@@ -110,7 +110,7 @@ function Signup()
           {
               var config = {
                     method: 'post',
-                    url: 'http://localhost:3001/userroutes/signup/',
+                    url: 'https://college-informaion-backend.herokuapp.com/userroutes/signup/',
                     headers: { 
                       'Content-Type': 'application/json'
                     },

@@ -74,7 +74,7 @@ function HostelComplaint()
             {
                 var config = {
                     method: 'post',
-                    url: 'http://localhost:3001/userroutes/hostelcomplain',
+                    url: 'https://college-informaion-backend.herokuapp.com/userroutes/hostelcomplain',
                     headers: { 
                       'Content-Type': 'application/json'
                     },

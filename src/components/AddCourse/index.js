@@ -49,7 +49,7 @@ function AddCourse()
       {
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/addcourse',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/addcourse',
             headers: { 
               'Content-Type': 'application/json'
             },

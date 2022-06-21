@@ -15,7 +15,7 @@ class FacultyView extends React.Component
 
         this.config = {
           method: 'get',
-          url: 'http://localhost:3001/userroutes/teachermanage/showteachers',
+          url: 'https://college-informaion-backend.herokuapp.com/userroutes/teachermanage/showteachers',
           headers: { 
             'Content-Type': 'application/json'
           }

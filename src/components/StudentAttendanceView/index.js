@@ -13,7 +13,7 @@ function StudentAttendanceView()
         const details=jwt_decode(localStorage.getItem("token"));
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/attendance/sendattendance',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/attendance/sendattendance',
             headers: { 
               'Content-Type': 'application/json'
             },

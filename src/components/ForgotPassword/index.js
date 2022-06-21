@@ -83,7 +83,7 @@ export default function ForgotPassword()
         */
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/forgotpssword/',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/forgotpssword/',
             headers: { 
             'Content-Type': 'application/json'
             },
@@ -231,7 +231,7 @@ export default function ForgotPassword()
 
                 var config = {
                   method: 'post',
-                  url: 'http://localhost:3001/userroutes/forgotpssword/matchotp',
+                  url: 'https://college-informaion-backend.herokuapp.com/userroutes/forgotpssword/matchotp',
                   headers: { 
                   'Content-Type': 'application/json'
                   },
@@ -422,7 +422,7 @@ export default function ForgotPassword()
 
                     var config = {
                       method: 'post',
-                      url: 'http://localhost:3001/userroutes/forgotpssword/changepassword',
+                      url: 'https://college-informaion-backend.herokuapp.com/userroutes/forgotpssword/changepassword',
                       headers: { 
                         'Content-Type': 'application/json'
                       },

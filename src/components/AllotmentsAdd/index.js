@@ -50,7 +50,7 @@ function AllotmentsAdd()
       {
         var config = {
           method: 'post',
-          url: 'http://localhost:3001/userroutes/allotment',
+          url: 'https://college-informaion-backend.herokuapp.com/userroutes/allotment',
           headers: { 
             'Content-Type': 'application/json'
           },

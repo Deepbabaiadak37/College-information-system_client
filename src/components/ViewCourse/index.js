@@ -45,7 +45,7 @@ function ViewCourse()
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/addcourse/getcourse',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/addcourse/getcourse',
                 headers: { 
                   'Content-Type': 'application/json'
                 },
@@ -105,7 +105,7 @@ function ViewCourse()
     {
         var config = {
             method: 'delete',
-            url: 'http://localhost:3001/userroutes/addcourse/deletecourse',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/addcourse/deletecourse',
             headers: { 
               'Content-Type': 'application/json'
             },

@@ -8,7 +8,7 @@ function ViewHostelComplains()
   const [details,setDetails]=useState([])
     useEffect(()=>{
         
-          axios.get('http://localhost:3001/userroutes/hostelcomplain/showcomplains')
+          axios.get('https://college-informaion-backend.herokuapp.com/userroutes/hostelcomplain/showcomplains')
           .then(res => {
             
              
@@ -29,7 +29,7 @@ function ViewHostelComplains()
 
       var config = {
         method: 'post',
-        url: 'http://localhost:3001/userroutes/hostelcomplain/deletecomplain',
+        url: 'https://college-informaion-backend.herokuapp.com/userroutes/hostelcomplain/deletecomplain',
         headers: { 
           'Content-Type': 'application/json'
         },
@@ -66,7 +66,7 @@ function ViewHostelComplains()
             },
           });
             
-            axios.get('http://localhost:3001/userroutes/hostelcomplain/showcomplains')
+            axios.get('https://college-informaion-backend.herokuapp.com/userroutes/hostelcomplain/showcomplains')
             .then(res => {
              
                 var arr=[];
@@ -91,7 +91,7 @@ function ViewHostelComplains()
     {
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/hostelcomplain/markdonecomplain',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/hostelcomplain/markdonecomplain',
             headers: { 
               'Content-Type': 'application/json'
             },
@@ -104,7 +104,7 @@ function ViewHostelComplains()
             .then(function (res) {
                 console.log(res); 
                 
-                axios.get('http://localhost:3001/userroutes/hostelcomplain/showcomplains')
+                axios.get('https://college-informaion-backend.herokuapp.com/userroutes/hostelcomplain/showcomplains')
                 .then(res => {
                   
                     console.log(res)

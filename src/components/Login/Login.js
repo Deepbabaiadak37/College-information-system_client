@@ -75,7 +75,7 @@ function Login()
             {
                 var config = {
                     method: 'post',
-                    url: 'http://localhost:3001/userroutes/login/',
+                    url: 'https://college-informaion-backend.herokuapp.com/userroutes/login/',
                     headers: { 
                     'Content-Type': 'application/json'
                     },

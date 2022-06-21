@@ -21,7 +21,7 @@ const yearChange=(event)=>{
     {
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/addcourse/getcourse',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/addcourse/getcourse',
             headers: { 
                 'Content-Type': 'application/json'
             },
@@ -57,7 +57,7 @@ const deptChange=(event)=>{
 
     var config = {
     method: 'post',
-    url: 'http://localhost:3001/userroutes/addcourse/getcourse',
+    url: 'https://college-informaion-backend.herokuapp.com/userroutes/addcourse/getcourse',
     headers: { 
         'Content-Type': 'application/json'
     },
@@ -128,7 +128,7 @@ const submitForm=(event)=>{
         fd.append('about',about);
         fd.append('image',selectedfile);
       
-       axios.post('http://localhost:3001/userroutes/studymaterial',fd)
+       axios.post('https://college-informaion-backend.herokuapp.com/userroutes/studymaterial',fd)
            .then(res =>{
                 if(res.data.status==200)
                  {

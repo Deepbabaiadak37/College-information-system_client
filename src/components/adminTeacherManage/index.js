@@ -78,7 +78,7 @@ const formSubmit= (event)=>
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/teachermanage',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/teachermanage',
                 headers: { 
                   'Content-Type': 'application/json'
                 },

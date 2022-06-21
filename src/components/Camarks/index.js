@@ -73,7 +73,7 @@ function Camarks()
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/camarks/getmarks',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/camarks/getmarks',
                 headers: { 
                   'Content-Type': 'application/json'
                 },

@@ -75,7 +75,7 @@ function TeacherGivenAttendance()
 
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/signup/getusers',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/signup/getusers',
             headers: { 
               'Content-Type': 'application/json'
             },
@@ -99,7 +99,7 @@ function TeacherGivenAttendance()
 
                         var config = {
                             method: 'post',
-                            url: 'http://localhost:3001/userroutes/addcourse/getcourse',
+                            url: 'https://college-informaion-backend.herokuapp.com/userroutes/addcourse/getcourse',
                             headers: { 
                               'Content-Type': 'application/json'
                             },
@@ -167,7 +167,7 @@ function TeacherGivenAttendance()
     {
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/attendance/markattendance',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/attendance/markattendance',
             headers: { 
               'Content-Type': 'application/json'
             },
@@ -281,7 +281,7 @@ function TeacherGivenAttendance()
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/attendance/markattendance',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/attendance/markattendance',
                 headers: { 
                   'Content-Type': 'application/json'
                 },

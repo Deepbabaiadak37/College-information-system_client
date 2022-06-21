@@ -16,7 +16,7 @@ const ProfileUpdate = () =>
     //console.log(jwtDecode(localStorage.getItem('token'))._id)
     var config = {
       method: 'post',
-      url: 'http://localhost:3001/userroutes/login/getuserimage',
+      url: 'https://college-informaion-backend.herokuapp.com/userroutes/login/getuserimage',
       headers: { 
           'Content-Type': 'application/json'
       },
@@ -43,7 +43,7 @@ const submitForm=(event)=>{
       fd.append('image',selectedfile);
 
  
-     axios.post('http://localhost:3001/userroutes/signup/profileupdate',fd)
+     axios.post('https://college-informaion-backend.herokuapp.com/userroutes/signup/profileupdate',fd)
          .then(res =>{
              window.location.reload();  
      })

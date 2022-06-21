@@ -15,7 +15,7 @@ function Notice()
   useEffect(()=>{
     const config ={
       method: 'get',
-      url: 'http://localhost:3001/userroutes/admin/notice/shownotice',
+      url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/notice/shownotice',
       headers: { 'Content-Type': 'application/json' } 
     }
 

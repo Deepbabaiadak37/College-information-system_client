@@ -24,7 +24,7 @@ class NoticeManage extends React.Component
 
         this.config ={
             method: 'get',
-            url: 'http://localhost:3001/userroutes/admin/notice/shownotice?_start=0&_end=4',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/notice/shownotice?_start=0&_end=4',
             headers: { 'Content-Type': 'application/json' } 
         };   
     }
@@ -82,7 +82,7 @@ class NoticeManage extends React.Component
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/admin/notice',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/notice',
                 headers: { 
                   'Content-Type': 'application/json'
                 },

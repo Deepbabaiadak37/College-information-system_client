@@ -10,7 +10,7 @@ const NoticeItems=(props)=>
        
         var config = {
             method: 'delete',
-            url: 'http://localhost:3001/userroutes/hostelnotice/delete',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/hostelnotice/delete',
             headers: { 
               'Content-Type': 'application/json'
             },

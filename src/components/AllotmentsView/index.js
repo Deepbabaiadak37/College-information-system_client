@@ -47,7 +47,7 @@ const [year,setYear]=useState("")
     {
       var config = {
         method: 'post',
-        url: 'http://localhost:3001/userroutes/allotment/allotmentview',
+        url: 'https://college-informaion-backend.herokuapp.com/userroutes/allotment/allotmentview',
         headers: { 
           'Content-Type': 'application/json'
         },

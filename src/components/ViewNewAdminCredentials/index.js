@@ -18,7 +18,7 @@ function ViewNewAdminCredentials()
 
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/admin/getadmins',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/getadmins',
             headers: { 
               'Content-Type': 'application/json'
             },
@@ -75,7 +75,7 @@ function ViewNewAdminCredentials()
     {
         var config = {
             method: 'delete',
-            url: 'http://localhost:3001/userroutes/admin/deleteadmin',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/deleteadmin',
             headers: { 
               'Content-Type': 'application/json'
             },
@@ -115,7 +115,7 @@ function ViewNewAdminCredentials()
                 }   
                 var config = {
                     method: 'post',
-                    url: 'http://localhost:3001/userroutes/admin/getadmins',
+                    url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/getadmins',
                     headers: { 
                       'Content-Type': 'application/json'
                     },
@@ -208,7 +208,7 @@ function ViewNewAdminCredentials()
             {
                 var config = {
                     method: 'post',
-                    url: 'http://localhost:3001/userroutes/admin/changepassword',
+                    url: 'https://college-informaion-backend.herokuapp.com/userroutes/admin/changepassword',
                     headers: { 
                     'Content-Type': 'application/json'
                     },

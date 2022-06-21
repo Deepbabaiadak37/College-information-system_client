@@ -23,7 +23,7 @@ class NoticeManageHostelAdmin extends React.Component
 
         this.config ={
             method: 'get',
-            url: 'http://localhost:3001/userroutes/hostelnotice/shownotice?_start=0&_end=4',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/hostelnotice/shownotice?_start=0&_end=4',
             headers: { 'Content-Type': 'application/json' } 
         };   
     }
@@ -77,7 +77,7 @@ class NoticeManageHostelAdmin extends React.Component
         {
         var config = {
             method: 'post',
-            url: 'http://localhost:3001/userroutes/hostelnotice',
+            url: 'https://college-informaion-backend.herokuapp.com/userroutes/hostelnotice',
             headers: { 
               'Content-Type': 'application/json'
             },

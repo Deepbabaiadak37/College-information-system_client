@@ -46,7 +46,7 @@ function UserStudyMaterial()
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/studymaterial/getstudymaterials',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/studymaterial/getstudymaterials',
                 headers: { 
                   'Content-Type': 'application/json'
                 },

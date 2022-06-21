@@ -123,7 +123,7 @@ function TeacherGivenCaMarks()
         {
             var config = {
                 method: 'post',
-                url: 'http://localhost:3001/userroutes/camarks/add',
+                url: 'https://college-informaion-backend.herokuapp.com/userroutes/camarks/add',
                 headers: { 
                   'Content-Type': 'application/json'
                 },
